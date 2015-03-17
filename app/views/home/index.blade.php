@@ -211,12 +211,12 @@
 				<form class="form" role="form" action="{{url('/')}}/submit-contact" method="post">
 				  	<div class="form-group">
 				    	<label for="name" class="sr-only">Name</label>
-					    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="required">
 					    <label class="control-label error-label" for="name">Please Enter Your Name</label>
 				  	</div>
 					<div class="form-group">
 					    <label for="email" class="sr-only">Email</label>
-					    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="required">
 					    <label class="control-label error-label" for="email">Please Enter A Valid Email Address</label>
 					</div>
 					<div class="form-group">
