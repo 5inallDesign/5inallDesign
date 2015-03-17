@@ -98,6 +98,12 @@ class HomeController extends BaseController {
 	{
 		$date = strtotime(date("Y-m-d H:i:s"));
 		$special_wallpaper = '';
+		$stpatricksdayBegin = strtotime(date("Y")."-3-13");
+		$stpatricksdayEnd = strtotime(date("Y")."-3-18");
+		if ($date > $stpatricksdayBegin && $date < $stpatricksdayEnd)
+		{
+			$special_wallpaper = url('/').'/img/home-container-bg-st-patricks-day.jpg';
+		}
 		$halloweenBegin = strtotime(date("Y")."-10-1");
 		$halloweenEnd = strtotime(date("Y")."-11-2");
 		if ($date > $halloweenBegin && $date < $halloweenEnd)
