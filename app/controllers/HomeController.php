@@ -48,18 +48,23 @@ class HomeController extends BaseController {
 
 	public function postSubmitContact()
 	{
-		$data = array(
-            'email' => Input::get('email'),
-            'name' => Input::get('name'),
-            'text' => Input::get('message')
-        );
-		Mail::send('emails.contact', $data, function($message)
+		if (Input::get('url'))
 		{
-		    $message->from(Input::get('email'), Input::get('name'));
-		    $message->to('matt@5inalldesign.com', 'Matt Crandell');
-		    $message->replyTo(Input::get('email'), Input::get('name'));
-		    $message->subject('You\'ve Been Contacted from 5inallDesign by '.Input::get('name').'!');
-		});
+			echo 'Sorry, we don\'t like spammers here!';
+		} else {
+			$data = array(
+	            'email' => Input::get('email'),
+	            'name' => Input::get('name'),
+	            'text' => Input::get('message')
+	        );
+			Mail::send('emails.contact', $data, function($message)
+			{
+			    $message->from(Input::get('email'), Input::get('name'));
+			    $message->to('matt@5inalldesign.com', 'Matt Crandell');
+			    $message->replyTo(Input::get('email'), Input::get('name'));
+			    $message->subject('You\'ve Been Contacted from 5inallDesign by '.Input::get('name').'!');
+			});
+		}
 		return $data;
 	}
 
