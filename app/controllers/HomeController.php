@@ -48,7 +48,7 @@ class HomeController extends BaseController {
 
 	public function postSubmitContact()
 	{
-		if (Input::get('url'))
+		if(Input::get('url') != '')
 		{
 			echo 'Sorry, we don\'t like spammers here!';
 		} else {
