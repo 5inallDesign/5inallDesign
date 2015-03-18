@@ -8,7 +8,7 @@
         @include('master.templates.nav')
         @yield('body')
         @include('master.templates.footer')
-        <script src="{{url('/')}}/js/jquery-1.11.1.min.js"></script>
+        <script src="{{url('/')}}/js/jquery-1.11.2.min.js"></script>
         <script src="{{url('/')}}/js/bootstrap.min.js"></script>
         <script src="{{url('/')}}/js/imagesloaded.pkgd.min.js"></script>
         <script src="{{url('/')}}/js/masonry.pkgd.min.js"></script>

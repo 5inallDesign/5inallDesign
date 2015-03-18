@@ -288,7 +288,7 @@ a:hover, a:focus, .btn:hover {
     color: #666;
 }
 .navbar.navbar-fixed-top .navbar-nav>li>a:hover {
-    color: #252525;
+    color: #4cb848;
 }
 .navbar.navbar-fixed-top .navbar-nav>.active>a, .navbar.navbar-fixed-top .navbar-nav>.active>a:hover {
     background-color: #4cb848;
@@ -332,6 +332,9 @@ a:hover, a:focus, .btn:hover {
     overflow: hidden;
     position: relative;
 }
+.item div.client-img img {
+    max-width: 101%;
+}
 .item div.client-img .hover-img {
     opacity: 0;
     visibility: hidden;
@@ -344,6 +347,8 @@ a:hover, a:focus, .btn:hover {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 .item.hover-img:hover div.client-img .main-img {
     opacity: 0;
@@ -461,6 +466,9 @@ a:hover, a:focus, .btn:hover {
 .contact-container .form .has-error .error-label {
     display: inline-block;
 }
+.contact-container .form .url {
+    display: none;
+}
 .contact-container .col-sm-5 p {
     font-size: 18px;
 }
@@ -537,7 +545,7 @@ a:hover, a:focus, .btn:hover {
 }
 /* Modals */
 .modal {
-    padding: 86px 25px 25px;
+    padding: 86px 25px 25px !important;
 }
 .modal-header {
     border-color: #4759a7;

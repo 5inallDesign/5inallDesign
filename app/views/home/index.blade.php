@@ -224,6 +224,7 @@
 						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
 					    <label class="control-label error-label" for="message">What? You Don't Want to Say Something?</label>
 					</div>
+					<input class="url" type="text" id="url" name="url" value="" />
 				  	<div class="form-group">
 				      	<button type="submit" class="btn btn-submit pull-right" data-loading-text="Sending...">Send</button>
 						<div class="clearfix"></div>
