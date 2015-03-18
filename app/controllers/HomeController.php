@@ -48,7 +48,14 @@ class HomeController extends BaseController {
 
 	public function postSubmitContact()
 	{
-		if(Input::get('url') != '')
+		$validator = Validator::make(
+		    Input::all(),
+		    array(
+		        'name' => 'required',
+		        'email' => 'required|email'
+		    )
+		);
+		if((Input::get('url') != '') || ($validator->fails()))
 		{
 			echo 'Sorry, we don\'t like spammers here!';
 		} else {
