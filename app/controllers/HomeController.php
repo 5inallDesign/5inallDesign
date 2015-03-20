@@ -77,7 +77,8 @@ class HomeController extends BaseController {
 
 	public function getSubmitContact()
 	{
-		$data = array(
+		return Redirect::to('/#contact', 301);
+		/*$data = array(
             'email' => Input::get('email'),
             'name' => Input::get('name'),
             'text' => Input::get('message')
@@ -87,23 +88,7 @@ class HomeController extends BaseController {
 		    $message->from(Input::get('email'), Input::get('name'));
 		    $message->to('matt@5inalldesign.com', 'Matt Crandell');
 		    $message->subject('You\'ve Been Contact from 5inallDesign!');
-		});
-	}
-
-	/*public function getSubmitContact()
-	{
-		echo 'test';
-	}*/
-
-	
-	public function getTest()
-	{
-		echo 'test';
-	}
-
-	public function showWelcome()
-	{
-		return View::make('hello');
+		});*/
 	}
 
 	protected function specialWallpaper()
