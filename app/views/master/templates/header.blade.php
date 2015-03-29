@@ -2,7 +2,7 @@
 <meta name="description" content="{{isset($description) ? $description : ''}}">
 <meta http-equiv="content-language" content="en">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>-->
 <link href="{{url('/')}}/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
