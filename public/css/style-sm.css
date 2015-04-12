@@ -94,6 +94,9 @@ body {
 .services-container .btn h2 {
     font-size: 18px;
 }
+.services-modal-icon  {
+    max-width: 100%;
+}
 /* Contact */
 .contact-container {
     color: #FFF;

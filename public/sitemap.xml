@@ -7,16 +7,134 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://5inalldesign.com/</loc>
+  <loc>http://www.5inalldesign.com/</loc>
+  <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://5inalldesign.com/portfolio</loc>
+  <loc>http://www.5inalldesign.com/portfolio</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://5inalldesign.com/img/resume.pdf</loc>
-  <lastmod>2014-08-28T18:18:03+00:00</lastmod>
+  <loc>http://www.5inalldesign.com/img/resume.pdf</loc>
+  <lastmod>2015-01-18T17:45:48+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/artrageous-limousine-service-llc</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/nuview-nutrition</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/vicksburg-family-dentistry</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/greggs-gourmet-cafe</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/the-gate</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/sage-orthodontics</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/christ-lutheran-church-of-waterford</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/four-green-fields-farm</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/heather-pines-adult-care</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/laura-jasurda</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/common-scents-canine-center-inc</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/accurate-physical-therapy-health-team-services-ii</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/moxie-fitness-and-health</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/facials-by-jude</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/gary-zirwes-health-and-wellness</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/michigan-elvis-presley-fan-club</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/red-pine-pottery-twigs</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/show-your-support-for-breast-cancer-awareness</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/pure-relaxation-massage</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/susan-m-kolb-ma-limited-licensed-psychologist</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/rob-schroeder-maintenance-repair-paint</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/respiratory-card-club-of-ferris-state-university</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.5inalldesign.com/portfolio/oxford-plumbing-heating-air-vac-furnace-company</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>

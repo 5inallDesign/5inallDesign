@@ -1,4 +1,4 @@
-<div class="item {{($client->secondary_img!='')?'hover-img':''}}" data-toggle="modal" data-target="#{{$client->slug}}Modal">
+<a href="{{url('/')}}/portfolio/{{$client->slug}}" data-portfolio="{{$client->slug}}" data-title="{{$client->name}}" class="item {{($client->secondary_img!='')?'hover-img':''}} portfolio-link">
 	<div class="client-img">
 		<img src="{{url('/').$client->featured_img}}" alt="{{$client->name}}" class="img-responsive main-img" />
 		@if($client->secondary_img!='')
@@ -11,4 +11,4 @@
 		<p class="client-location">{{$client->city}}, {{$client->state}}</p>
 		@endif
 	</div>
-</div>
+</a>

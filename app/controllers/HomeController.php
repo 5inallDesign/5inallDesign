@@ -31,12 +31,49 @@ class HomeController extends BaseController {
         return $vw;
 	}
 
-	public function getPortfolio()
+	public function getPortfolio($client = null)
 	{
+		if ($client)
+		{
+			$client = Client::where('slug','=',$client)->first();
+			if(!empty($client))
+			{
+				$services = explode(', ', $client->services_provided);
+	        	$client->services = $services;
+
+	        	$assets = Asset::where('client_id',$client->id)->orderBy('display_order')->get();
+	        	$client->assets = $assets;
+	        	//$featured_img = $assets->where('client_id',$client->id)->where('is_featured',1)->first();
+	        	foreach ($assets as $asset)
+	        	{
+	        		if($asset->is_featured)
+	        			$client->featured_img = $asset->path;
+	        		
+	        		if($asset->display_order == 1)
+	        		{
+	        			$client->secondary_img = $asset->path;
+	        		}
+	        		if($asset->is_hover)
+	        		{
+	        			$client->secondary_img = $asset->path;
+	        		}
+	        	}
+
+	        	$testimonials = Testimonial::where('client_id',$client->id)->get();
+	        	$client->testimonials = $testimonials;
+
+				$vw = View::make('home.portfolio-item');
+				$vw->title = $client->name." | 5inallDesign by Matt Crandell";
+				$vw->description = $client->name;
+				$vw->client = $client;
+				$vw->fullPage = true;
+				return $vw;
+			}
+		}
 		$code = array();
         //$code[] = View::make('home.jscode.index');
         $vw = View::make('home.portfolio')->with('code', implode(' ', $code));
-        $vw->title = "5inallDesign by Matt Crandell | My Portfolio";
+        $vw->title = "My Portfolio | 5inallDesign by Matt Crandell";
         $vw->description = "See Matt Crandell's past projects including web design and logo design.";
 
         $vw->clients = $this->clients('all');
