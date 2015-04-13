@@ -1,4 +1,4 @@
-@extends('master.templates.master', array('var1'=>'', 'var2'=>''))
+@extends('master.templates.master', array('title'=>'404: Page Not Found', 'description'=>''))
 @section('body')
 
 <div id="error" class="error-container">
