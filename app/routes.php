@@ -89,6 +89,14 @@ Route::get('services_seo.html', function()
 {
 	return Redirect::to('/', 301);
 });
+Route::get('services_computer_repair.html', function()
+{
+	return Redirect::to('/', 301);
+});
+Route::get('services_socialmedia.html', function()
+{
+	return Redirect::to('/', 301);
+});
 Route::get('/testbox/{param1?}/{param2?}/{param3?}/{param4?}/{param5?}/{param6?}', function()
 {
 	return Redirect::to('/', 301);
