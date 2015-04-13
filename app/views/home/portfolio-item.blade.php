@@ -1,7 +1,11 @@
 @extends('master.templates.master', array('active_page'=>'portfolio'))
 @section('body')
 	<div class="portfolio-item">
-		@include('master.templates.client-modal', array('client'=>$client,'fullPage'=>'true'))
+		@if($client->is_custom)
+			@include('portfolio.'.$client->slug, array('client'=>$client,'fullPage'=>'true'))
+		@else
+			@include('master.templates.client-modal', array('client'=>$client,'fullPage'=>'true'))
+		@endif
 		<div class="modal-backdrop fade in"></div>
 	</div>
 @stop

@@ -101,6 +101,8 @@ class ClientCommand extends Command {
                 		$client->is_use_url = ($data[6] != '')?1:0;
                 		$client->description = $data[7];
                         $client->display_order = ($data[8] != '')?$data[8]:999;
+                        $client->is_custom = ($data[9] != '')?1:0;
+                        $client->is_active = ($data[10] != '')?1:0;
                 		$client->save();
                 	} else {
                 		$client->slug = $this->toAscii($data[0]);
@@ -111,7 +113,9 @@ class ClientCommand extends Command {
                 		$client->url = $data[6];
                 		$client->is_use_url = ($data[6] != '')?1:0;
                 		$client->description = $data[7];
-                        $client->display_order = ($data[8] != '')?$data[8]:999;;
+                        $client->display_order = ($data[8] != '')?$data[8]:999;
+                        $client->is_custom = ($data[9] != '')?1:0;
+                        $client->is_active = ($data[10] != '')?1:0;
                 		$client->save();
                 	}
                 }
