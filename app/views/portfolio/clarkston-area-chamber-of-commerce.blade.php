@@ -15,8 +15,8 @@
 
                 <div class="row margin-bottom-20">
                     <div class="col-sm-7 col-lg-8">
-                        <p>For the Clarkston Area Chamber of Commerce, I not only created a new logo, but created a full brand package for them. I featured the clock from the old logo and a landmark in downtown, updated with cleaner lines and more modern look. A new typeface was chosen to be used across the board. Blue is used because it conveys reliability while the orange is inviting and energetic. After discovering a multicolored wall in the chamber office, the tones from the wall was used to create all colors used in the logos.</p>
-                        <p>All the logos keep a similar motif with varying levels in the words. The image of the logo is to left. The constant look allows the logos to be instantly recognizable as a chamber event or activity.</p>
+                        <p>For the Clarkston Area Chamber of Commerce, I created not only a new logo, but also a full brand package for them. I featured the clock from the old logo: a landmark located downtown, updated the design with cleaner lines and an overall more modern look. I chose a new typeface to be used across the board. I used blue because it conveys reliability, while the orange is inviting and energetic. After discovering a multicolored wall in the chamber office, I used the tones from the wall to create all colors used in the logos.</p>
+                        <p>All the logos keep a similar motif with varying levels in the words with the image of the logo on the left. This consistent look makes the logos instantly recognizable as a chamber event or activity.</p>
                         <p class="hidden-xs">Check out the additional logos below.</p>
                     </div>
                     <div class="col-sm-5 col-lg-4">
