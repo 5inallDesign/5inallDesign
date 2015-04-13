@@ -21,7 +21,11 @@
 		</div>
 
 		@foreach($clients as $client)
-			@include('master.templates.client-modal', array('client'=>$client))
+			@if($client->is_custom)
+				@include('portfolio.'.$client->slug, array('client'=>$client))
+			@else
+				@include('master.templates.client-modal', array('client'=>$client))
+			@endif
 		@endforeach
 		<div class="button-holder text-center">
 			<a href="{{url('/')}}/portfolio" class="btn btn-lg btn-green">See My Full Portfolio <span class="flaticon flaticon-right237"></span></a>
