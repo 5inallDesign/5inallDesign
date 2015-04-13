@@ -9,7 +9,7 @@
 <!--<link href="{{url('/')}}/css/aqual.css" rel="stylesheet" type="text/css" media="all" />-->
 <link href="{{url('/')}}/css/flaticon.css" rel="stylesheet">
 <link href="{{url('/')}}/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-<?php $cache = 2; ?>
+<?php $cache = 3; ?>
 <link href="{{url('/')}}/css/style.css?version={{$cache}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{url('/')}}/css/style-sm.css?version={{$cache}}" rel="stylesheet" media="all  and (min-width: 768px)" />
 <link href="{{url('/')}}/css/style-md.css?version={{$cache}}" rel="stylesheet" media="all  and (min-width: 992px)" />

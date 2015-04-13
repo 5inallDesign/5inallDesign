@@ -163,10 +163,15 @@
 }
 
 /* General Styles */
+html {
+    height: 100%;
+}
 body {
     position: relative;
     color: #252525;
     font-weight: 300;
+    min-height: 100%;
+    height: 100%;
 }
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Aileron','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -306,12 +311,17 @@ a:hover, a:focus, .btn:hover {
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #FFF;
 }
+
 /* Page */
+.content {
+    min-height: 100%;
+}
 .page {
 	padding: 40px 25px 40px 25px;
     min-height: 450px;
     overflow: hidden;
 }
+
 /* Masonry */
 .samples {
     margin: 0 -1% 10px -1%;
@@ -326,6 +336,10 @@ a:hover, a:focus, .btn:hover {
 	box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.25);
     cursor: pointer;
     overflow: hidden;
+    display: block;
+}
+.no-boxshadow .item {
+    border: 1px solid #323232;
 }
 .item div.client-img {
     /*height: 175px;*/
@@ -360,6 +374,9 @@ a:hover, a:focus, .btn:hover {
 }
 .item div.info {
 	margin: 10px;
+}
+.item div.info p {
+    color: #252525
 }
 .item div.info p.client-location {
     font-size: 12px;
@@ -424,6 +441,9 @@ a:hover, a:focus, .btn:hover {
 }
 .services-container .modal {
     color: #252525;
+}
+.services-modal-icon  {
+    max-width: 200px;
 }
 /* About */
 .about-container h2 {
@@ -558,7 +578,8 @@ a:hover, a:focus, .btn:hover {
     color: #4cb848;
     font-size: 18px;
 }
-.modal button.close {
+.modal button.close,
+.modal a.close {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -566,6 +587,11 @@ a:hover, a:focus, .btn:hover {
     text-shadow: none;
     color: #252525;
     opacity: .5;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
 }
 .modal button.close:hover {
     opacity: .75;
@@ -625,6 +651,11 @@ a:hover, a:focus, .btn:hover {
     line-height: normal;
     margin-top: 75px;
     margin-bottom: 30px;
+}
+
+/* Portfolio Item Page */
+.portfolio-item {
+    height: 100%;
 }
 
 /* 404 Page */

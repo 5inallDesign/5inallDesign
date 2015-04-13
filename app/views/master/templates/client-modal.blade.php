@@ -1,8 +1,12 @@
-<div class="modal fade" id="{{$client->slug}}Modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade {{isset($fullPage)?'in':''}}" id="{{$client->slug}}Modal" tabindex="-1" role="dialog" aria-hidden="true" style="{{isset($fullPage)?'display:block':''}}">
  	<!--<div class="modal-dialog modal-lg">-->
     	<div class="modal-content">
       		<div class="modal-header">
+                @if(isset($fullPage))
+                <a href="{{url('/')}}/portfolio" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></a>
+                @else
         		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                @endif
         		<div class="h3 modal-title">{{$client->name}}</div>
       		</div>
       		<div class="modal-body">

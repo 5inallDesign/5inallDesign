@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         @include('master.templates.header')
     </head>
-    <body data-spy="scroll" data-target="#topNav.spy-active" data-offset="61">
+    <body data-spy="scroll" data-target="#topNav.spy-active" data-offset="61" class="{{isset($fullPage)?'modal-open':''}}">
         @include('master.templates.nav')
         @yield('body')
         @include('master.templates.footer')
@@ -13,6 +13,7 @@
         <script src="{{url('/')}}/js/imagesloaded.pkgd.min.js"></script>
         <script src="{{url('/')}}/js/masonry.pkgd.min.js"></script>
         <script src="{{url('/')}}/js/owl.carousel.min.js"></script>
+        <script src="{{url('/')}}/js/modernizr.custom.71840.js"></script>
         <script>
         var $container = $('#portfolio-grid');
             // initialize Masonry after all images have loaded  
@@ -58,6 +59,7 @@
         @yield('footercode')
 
         <script type="text/javascript">
+            originURL = '{{$_SERVER["REQUEST_URI"]}}';
             $(document).ready(function() {
                 $(".owl-carousel").owlCarousel({
                     navigation : true, // Show next and prev buttons
@@ -76,6 +78,50 @@
                     } , 750 );
                 });
 
+            });
+
+            // Portfolio Functions
+            $('.portfolio-link').click(function(event)
+            {
+                if($('html').hasClass('history'))
+                {
+                    event.preventDefault();
+                    url = $(this).attr("href");
+                    portfolioSlug = $(this).data('portfolio');
+                    stateObject = {};
+                    title = $(this).data('portfolio')+" | 5inallDesign by Matt Crandell";
+                    history.pushState(stateObject,title,url);
+                    $('#'+portfolioSlug+'Modal').modal('show');
+                }
+            });
+            window.onpopstate = function(event)
+            {
+                if($('html').hasClass('history'))
+                {
+                    if ((window.location.pathname == '{{$_SERVER["REQUEST_URI"]}}') && (portfolioSlug != ''))
+                    {
+                        $('#'+portfolioSlug+'Modal').modal('hide');
+                    }
+                    else if ((window.location.pathname == '{{$_SERVER["REQUEST_URI"]}}') && (portfolioSlug == ''))
+                    {
+                        stateObject = {};
+                        title = "{{$title}}";
+                        history.pushState(stateObject,title,'{{Request::url()}}');
+                    }
+                    else if ((window.location.pathname != '/') && (portfolioSlug != ''))
+                    {
+                        $('#'+portfolioSlug+'Modal').modal('show');
+                    }
+                }
+            };
+            $('.modal').on('hidden.bs.modal', function (event)
+            {
+                if($('html').hasClass('history'))
+                {
+                    stateObject = {};
+                    title = "{{$title}}";
+                    history.replaceState(stateObject,title,'{{Request::url()}}');
+                }
             });
 
             var client = getUrlVars()["client"];
