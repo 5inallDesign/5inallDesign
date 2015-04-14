@@ -664,6 +664,9 @@ a:hover, a:focus, .btn:hover {
 }
 
 /* General Styles */
+.section-description {
+    max-width: 700px;
+}
 .margin-top-10 {
     margin-top: 10px;
 }

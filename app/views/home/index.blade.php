@@ -13,7 +13,7 @@
 <div id="portfolio">
 	<div class="page portfolio-container">
 		<h1>Portfolio</h1>
-		<p>5inallDesign and Matt Crandell works with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
+		<p class="section-description">5inallDesign and Matt Crandell works with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
 		<div class="samples" id="portfolio-grid">
 			@foreach($clients as $client)
 				@include('master.templates.grid-item', array('client'=>$client))
@@ -37,7 +37,7 @@
 <div id="services" class="services-container">
 	<div class="page">
 		<h1>Services</h1>
-		<p>5inallDesign is a website design company in Metro Detroit, Michigan. With over 10 years of experience, you can expect a professional looking website for an excellent value. 5inallDesign also offers other skilled services from website hosting to logo design.</p>
+		<p class="section-description">5inallDesign is a website design company in Metro Detroit, Michigan. With over 10 years of experience, you can expect a professional looking website for an excellent value. 5inallDesign also offers other skilled services from website hosting to logo design.</p>
 		<div class="clearfix margin-bottom-15"></div>
 		<div class="row">
 			<div class="col-md-1 hidden-sm hidden-xs"></div>
