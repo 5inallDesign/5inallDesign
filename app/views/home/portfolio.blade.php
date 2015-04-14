@@ -13,7 +13,7 @@
 <div id="fullPortfolio" class="full-portfolio-container">
 	<div class="page">
 		<h1>Matt Crandell's Full Portfolio</h1>
-		<p>5inallDesign and Matt Crandell work with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
+		<p class="section-description">5inallDesign and Matt Crandell works with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
 		<div class="samples" id="portfolio-grid">
 			@foreach($clients as $client)
 				@include('master.templates.grid-item', array('client'=>$client))
