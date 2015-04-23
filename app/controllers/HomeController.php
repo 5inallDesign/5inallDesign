@@ -68,6 +68,8 @@ class HomeController extends BaseController {
 				$vw->client = $client;
 				$vw->fullPage = true;
 				return $vw;
+			} else {
+				return Redirect::to('/portfolio', 301);
 			}
 		}
 		$code = array();
