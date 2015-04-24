@@ -7,7 +7,17 @@
                 @else
         		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 @endif
-        		<div class="h3 modal-title">{{$client->name}}</div>
+        		@if(isset($fullPage))
+                    <h1 class="modal-title">
+                @else
+                    <h3 class="modal-title">
+                @endif
+                    {{$client->name}}
+                @if(isset($fullPage))
+                    </h1>
+                @else
+                    </h3>
+                @endif
       		</div>
       		<div class="modal-body">
 
