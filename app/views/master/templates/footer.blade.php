@@ -27,6 +27,6 @@
         <p>All graphics are created by me, Matt Crandell.</p>
     </div>
     <!-- scroll_top_btn -->
-    <a href="#" id="toTop" class="scroll-top-button img-circle"><span class="flaticon flaticon-up176"></span><span id="toTopHover" style="opacity: 1;"></span></a>
+    <a href="#" id="toTop" class="scroll-top-button img-circle"><span class="flaticon flaticon-up176"></span></a>
     <!--end scroll_top_btn -->
 </footer>
