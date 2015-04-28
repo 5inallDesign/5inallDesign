@@ -27,7 +27,13 @@
       					@else
       					<div id="{{$client->slug}}-carousel" class="owl-carousel owl-theme">
 	      					@foreach($client->assets as $asset)
-	      						<div><img data-src="{{url('/').$asset->path}}" src="{{url('/')}}/img/ajax-loader.gif" alt="{{$asset->short_description}}" class="img-responsive center-block lazyOwl" /></div>
+	      						<div>
+                                    @if(isset($fullPage))
+                                    <img src="{{url('/').$asset->path}}" alt="{{$asset->short_description}}" class="img-responsive center-block" />
+                                    @else
+                                    <img data-src="{{url('/').$asset->path}}" src="{{url('/')}}/img/ajax-loader.gif" alt="{{$asset->short_description}}" class="img-responsive center-block lazyOwl" />
+                                    @endif
+                                </div>
 	      					@endforeach
       					</div>
       					@endif
