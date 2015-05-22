@@ -28,7 +28,7 @@ $env = $app->detectEnvironment(array(
 
 	'local' => array('http://localhost*', '*.dev', '*.local', '192*', '*local.soe3.com', 'http://127.0.0.1/', 'Matts-MBP','matts-mbp.corp.marketsharecoupons.com'),
     //'stage' => array('*.co'),
-    //'prod'  => array('*saveon.com', '*.saveoneverything.com'),
+    //'prod'  => array('*5inalldesign.com'),
 
 ));
 
