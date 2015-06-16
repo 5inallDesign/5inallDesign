@@ -1,0 +1,26 @@
+/* Mixins */
+
+@mixin hover-transition() {
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+@mixin size-transition() {
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+@mixin mobile-bg() {
+	-o-background-size: auto 100%, auto;
+    -moz-background-size: auto 100%, auto;
+    -webkit-background-size: auto 100%, auto;
+    background-size: auto 100%, auto;
+}
+@mixin desktop-bg() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
