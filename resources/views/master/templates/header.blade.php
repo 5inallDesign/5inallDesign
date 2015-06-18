@@ -17,7 +17,7 @@
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lte IE 8]>
-	<script src="{{url('/')}}/js/html5shiv.js"></script>
+	<script src="{{url('/')}}/js/html5shiv.min.js"></script>
 	<script src="{{url('/')}}/js/respond.min.js"></script>
 	<style>
 		.navbar.navbar-fixed-top .navbar-brand img {
@@ -25,7 +25,7 @@
 			width: 155px;
 			max-width: none;
 		}
-		.item {
+		.grid-item {
 			width: 22% !important;
 		}
 		.services-container {
