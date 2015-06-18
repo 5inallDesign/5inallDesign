@@ -51,7 +51,8 @@ abstract class Controller extends BaseController
         $clients = Client::orderBy('display_order');
         if (!$all)
             $clients = $clients->take(8);
-        $clients = $clients->with('asset')->with('testimonial')->remember(30*24*60)->get();
+        // Removed ->remember(30*24*60) for now.
+        $clients = $clients->with('asset')->with('testimonial')->get();
 
         foreach ($clients as $client) {
             $services = explode(', ', $client->services_provided);
