@@ -13,7 +13,7 @@
 <div id="portfolio">
 	<div class="page portfolio-container">
 		<h1>Portfolio</h1>
-		<p class="section-description">5inallDesign and Matt Crandell works with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
+		<p class="section-description">5inallDesign and Matt Crandell work with businesses of all sizes. Check out some of the expert work that I have provided. Click on an item below to see more.</p>
 		<div class="samples" id="portfolio-grid">
 			@foreach($clients as $client)
 				@include('master.templates.grid-item', array('client'=>$client))
@@ -133,7 +133,7 @@
 		      		<img src="{{url('/')}}/img/icon-social-media-green.png" alt="Social Media Advising Services" class="img-responsive center-block margin-bottom-15 services-modal-icon">
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
-					<p>You keep hearing all of these things about social media but don't have the time to learn them all. That's where 5inallDesign comes in. Being on Facebook since 2005, we have been able to keep up with the trends. 5inallDesign will ensure you will have a Facebook or Twitter that people will actually want to go to. Through personalized customization, 5inallDesign will get you on the right track.</p>
+					<p>You keep hearing all of these things about social media but don't have the time to learn them all. That's where 5inallDesign comes in. Being on Facebook since 2005, I have been able to keep up with the trends. 5inallDesign will ensure you will have a Facebook or Twitter that people will actually want to go to. Through personalized customization, 5inallDesign will get you on the right track.</p>
 				</div>
 			</div>
   		</div>
