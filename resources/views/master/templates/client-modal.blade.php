@@ -46,11 +46,11 @@
       					@endif
       				</div>
       				<div class="col-sm-5 col-sm-pull-7">
-      					@if (substr($client->description, 0, 3) != '<p>')
+      					@if(substr($client->description, 0, 3) != '<p>')
       					<p>
       					@endif
-      					{{$client->description}}
-      					@if (substr($client->description, -4) != '</p>')
+      					{!!$client->description!!}
+      					@if(substr($client->description, -4) != '</p>')
       					</p>
       					@endif
 		        		<p>Services provided:</p>
