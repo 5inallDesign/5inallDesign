@@ -4,15 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="csrf-token" content="{{csrf_token()}}" />
 
-<!--<link href="{{url('/')}}/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="{{url('/')}}/css/flaticon.css" rel="stylesheet">
-<link href="{{url('/')}}/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />-->
 <?php $cache = 4; ?>
 <link href="{{url('/')}}/css/style.css?version={{$cache}}" rel="stylesheet" type="text/css" media="all" />
-
-<!---start-slider-->	
-<!--<link rel="stylesheet" type="text/css" href="{{url('/')}}/css/slider.css" />-->
-<!---//start-slider-->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
