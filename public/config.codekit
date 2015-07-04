@@ -1483,28 +1483,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/services-container-bg copy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 146303,
-		"inputAbbreviatedPath": "\/img\/services-container-bg copy.jpg",
-		"outputAbbreviatedPath": "\/img\/services-container-bg copy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/services-container-bg-mobile copy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79819,
-		"inputAbbreviatedPath": "\/img\/services-container-bg-mobile copy.jpg",
-		"outputAbbreviatedPath": "\/img\/services-container-bg-mobile copy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/services-container-bg-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
