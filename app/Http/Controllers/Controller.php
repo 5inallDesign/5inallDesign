@@ -17,6 +17,12 @@ abstract class Controller extends BaseController
     {
         $date = strtotime(date("Y-m-d H:i:s"));
         $special_wallpaper = '';
+        $july4thBegin = strtotime(date("Y")."-7-3");
+        $july4thEnd = strtotime(date("Y")."-7-5");
+        if ($date > $july4thBegin && $date < $july4thEnd)
+        {
+            $special_wallpaper = url('/').'/img/home-container-bg-fourth-of-july.jpg';
+        }
         $stpatricksdayBegin = strtotime(date("Y")."-3-13");
         $stpatricksdayEnd = strtotime(date("Y")."-3-18");
         if ($date > $stpatricksdayBegin && $date < $stpatricksdayEnd)
