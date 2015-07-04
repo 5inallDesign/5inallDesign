@@ -385,7 +385,7 @@ a {
     background: $green url(../img/contact-container-bg.jpg) no-repeat center center;
     @include mobile-bg();
     @media (min-width: $screen-sm-min) {
-    	background: url(../img/services-container-bg.jpg) no-repeat center center fixed;
+    	background: url(../img/contact-container-bg.jpg) no-repeat center center fixed;
     	@include desktop-bg();
     }
     .form {

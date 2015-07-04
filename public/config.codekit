@@ -75,6 +75,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home-container-bg-fourth-of-july.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 760053,
+		"inputAbbreviatedPath": "\/img\/home-container-bg-fourth-of-july.jpg",
+		"outputAbbreviatedPath": "\/img\/home-container-bg-fourth-of-july.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home-container-bg-halloween.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
