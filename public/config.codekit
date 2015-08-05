@@ -394,6 +394,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/brewing-4-business-mockup1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300831,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business-mockup1.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business-mockup1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/brewing-4-business1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113677,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business1.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/brewing-4-business2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46311,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business2.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/brewing-4-business3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110139,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business3.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/christwaterford-responsive.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

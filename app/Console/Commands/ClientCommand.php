@@ -5,6 +5,9 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
+use App\Client;
+use App\Asset;
+use App\Testimonial;
 
 class ClientCommand extends Command
 {
@@ -85,14 +88,14 @@ class ClientCommand extends Command
                 }
                 else
                 {
-                    $client = \App\Client::where("name","=",$data[0])->first();
+                    $client = Client::where("name","=",$data[0])->first();
                     if(empty($client))
                     {
                         /*DB::table('clients')->insert(array(
                             'name' => $data[0],
                             'slug' => $this->toAscii($data[0]),
                         ));*/
-                        $client = new \App\Client;
+                        $client = new Client;
                         $client->name = $data[0];
                         $client->slug = $this->toAscii($data[0]);
                         $client->is_featured = $data[2];
@@ -153,10 +156,10 @@ class ClientCommand extends Command
                 }
                 else
                 {
-                    $client = \App\Client::where("name","=",$data[6])->first();
+                    $client = Client::where("name","=",$data[6])->first();
                     if($client)
                     {
-                        $asset = \App\Asset::where("path","=",$data[0])->first();
+                        $asset = Asset::where("path","=",$data[0])->first();
                         $counter++;
                         if(empty($asset))
                         {
@@ -218,14 +221,14 @@ class ClientCommand extends Command
                 }
                 else
                 {
-                    $client = \App\Client::where("name","=",$data[2])->first();
+                    $client = Client::where("name","=",$data[2])->first();
                     if($client)
                     {
-                        $testimonial = \App\Testimonial::where("author","=",$data[1])->first();
+                        $testimonial = Testimonial::where("author","=",$data[1])->first();
                         $counter++;
                         if(empty($testimonial))
                         {
-                            $testimonial = new \App\Testimonial;
+                            $testimonial = new Testimonial;
                             $testimonial->testimonial = $data[0];
                             $testimonial->author = $data[1];
                             $testimonial->client_id = $client->id;
