@@ -16,3 +16,4 @@ sftp-config.json
 **.sass-cache**
 .sass-cache
 .sass-cache/*
+/public/config.codekit
