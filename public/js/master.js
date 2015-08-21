@@ -2,6 +2,12 @@
 /* global requestURL */
 /* global URLtitle */
 /* global domainURL */
+/* global Modernizr */
+
+/* Check Logo Support */
+if (!Modernizr.svg) {
+    $('.logo').attr('src', domainURL+'/img/5inalldesign.png');
+}
 
 /* Masonry Initializer */
 var $container = $('#portfolio-grid');

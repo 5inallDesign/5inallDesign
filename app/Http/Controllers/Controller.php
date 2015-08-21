@@ -58,7 +58,7 @@ abstract class Controller extends BaseController
         if (!$all)
             $clients = $clients->take(8);
         //Removed ->remember(30*24*60) for now.
-        $clients = $clients->with('asset')->with('testimonial')->get();
+        $clients = $clients->with('asset')->with('testimonial')->remember(30*24*60)->get();
 
         foreach ($clients as $client) {
             $services = explode(', ', $client->services_provided);
@@ -67,15 +67,20 @@ abstract class Controller extends BaseController
             foreach ($client->Asset as $asset)
             {
                 if($asset->is_featured)
+                {
                     $client->featured_img = $asset->path;
+                    $client->featured_img_retina = $asset->path_2x;
+                }
                 
                 if($asset->display_order == 1)
                 {
                     $client->secondary_img = $asset->path;
+                    $client->secondary_img_retina = $asset->path_2x;
                 }
                 if($asset->is_hover)
                 {
                     $client->secondary_img = $asset->path;
+                    $client->secondary_img_retina = $asset->path_2x;
                 }
             }
             

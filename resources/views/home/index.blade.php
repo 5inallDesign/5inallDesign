@@ -43,31 +43,31 @@
 			<div class="col-md-1 hidden-sm hidden-xs"></div>
 			<div class="col-md-2 col-sm-4 col-xs-6 margin-bottom-15">
 				<div class="btn btn-block btn-translucent-blue"  data-toggle="modal" data-target="#webDesignModal">
-					<img src="{{url('/')}}/img/icon-web-design.png" alt="Web Design and Development" class="img-responsive center-block">
+					<img srcset="{{url('/')}}/img/icon-web-design.svg 2x" src="{{url('/')}}/img/icon-web-design.png" alt="Web Design and Development" class="img-responsive center-block" data-no-retina>
 					<h2>Web Design and Development</h2>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 margin-bottom-15">
 				<div class="btn btn-block btn-translucent-blue"  data-toggle="modal" data-target="#webHostingModal">
-					<img src="{{url('/')}}/img/icon-web-hosting.png" alt="Web Hosting" class="img-responsive center-block">
+					<img srcset="{{url('/')}}/img/icon-web-hosting.svg 2x" src="{{url('/')}}/img/icon-web-hosting.png" alt="Web Hosting" class="img-responsive center-block" data-no-retina>
 					<h2>Web Hosting</h2>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 margin-bottom-15">
 				<div class="btn btn-block btn-translucent-blue"  data-toggle="modal" data-target="#socialMediaModal">
-					<img src="{{url('/')}}/img/icon-social-media.png" alt="Social Media Advising Services" class="img-responsive center-block">
+					<img srcset="{{url('/')}}/img/icon-social-media.svg 2x" src="{{url('/')}}/img/icon-social-media.png" alt="Social Media Advising Services" class="img-responsive center-block" data-no-retina>
 					<h2>Social Media Advising Services</h2>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 col-sm-offset-2 col-md-offset-0 margin-bottom-15">
 				<div class="btn btn-block btn-translucent-blue"  data-toggle="modal" data-target="#logoDesignModal">
-					<img src="{{url('/')}}/img/icon-logo-design.png" alt="Logo Design" class="img-responsive center-block">
+					<img srcset="{{url('/')}}/img/icon-logo-design.svg 2x" src="{{url('/')}}/img/icon-logo-design.png" alt="Logo Design" class="img-responsive center-block" data-no-retina>
 					<h2>Logo Design</h2>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 col-xs-offset-3 col-sm-offset-0 margin-bottom-15">
 				<div class="btn btn-block btn-translucent-blue"  data-toggle="modal" data-target="#seoModal">
-					<img src="{{url('/')}}/img/icon-seo.png" alt="Search Engine Optimization" class="img-responsive center-block">
+					<img srcset="{{url('/')}}/img/icon-seo.svg 2x" src="{{url('/')}}/img/icon-seo.png" alt="Search Engine Optimization" class="img-responsive center-block" data-no-retina>
 					<h2>Search Engine Optimization</h2>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
   		<div class="modal-body">
   			<div class="row">
 		      	<div class="col-sm-4 col-sm-push-8">
-		      		<img src="{{url('/')}}/img/icon-web-design-green.png" alt="Web Design and Development" class="img-responsive center-block margin-bottom-15 services-modal-icon">
+		      		<img srcset="{{url('/')}}/img/icon-web-design-green.svg 2x" src="{{url('/')}}/img/icon-web-design-green.png" alt="Web Design and Development" class="img-responsive center-block margin-bottom-15 services-modal-icon" data-no-retina>
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
 		      		<p>Everybody needs a website. In today's world, nothing is more true. Perhaps you need a website to promote your business or organization? 5inallDesign can do that. We also specialize in website renovations, in order to modernize your website to match today's standards.</p>
@@ -110,7 +110,7 @@
   		<div class="modal-body">
   			<div class="row">
 		      	<div class="col-sm-4 col-sm-push-8">
-		      		<img src="{{url('/')}}/img/icon-web-hosting-green.png" alt="Web Hosting" class="img-responsive center-block margin-bottom-15 services-modal-icon">
+		      		<img srcset="{{url('/')}}/img/icon-web-hosting-green.svg 2x" src="{{url('/')}}/img/icon-web-hosting-green.png" alt="Web Hosting" class="img-responsive center-block margin-bottom-15 services-modal-icon" data-no-retina>
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
 					<p>So you have a new website, but now you need a place to put it. 5inallDesign can host it for you. With over 10 years of experience, we know the best hosting solutions for you.</p>
@@ -130,7 +130,7 @@
   		<div class="modal-body">
   			<div class="row">
 		      	<div class="col-sm-4 col-sm-push-8">
-		      		<img src="{{url('/')}}/img/icon-social-media-green.png" alt="Social Media Advising Services" class="img-responsive center-block margin-bottom-15 services-modal-icon">
+		      		<img srcset="{{url('/')}}/img/icon-social-media-green.svg 2x" src="{{url('/')}}/img/icon-social-media-green.png" alt="Social Media Advising Services" class="img-responsive center-block margin-bottom-15 services-modal-icon" data-no-retina>
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
 					<p>You keep hearing all of these things about social media but don't have the time to learn them all. That's where 5inallDesign comes in. Being on Facebook since 2005, I have been able to keep up with the trends. 5inallDesign will ensure you will have a Facebook or Twitter that people will actually want to go to. Through personalized customization, 5inallDesign will get you on the right track.</p>
@@ -149,7 +149,7 @@
   		<div class="modal-body">
   			<div class="row">
 		      	<div class="col-sm-4 col-sm-push-8">
-		      		<img src="{{url('/')}}/img/icon-logo-design-green.png" alt="Logo Design" class="img-responsive center-block margin-bottom-15 services-modal-icon">
+		      		<img srcset="{{url('/')}}/img/icon-logo-design-green.svg 2x" src="{{url('/')}}/img/icon-logo-design-green.png" alt="Logo Design" class="img-responsive center-block margin-bottom-15 services-modal-icon" data-no-retina>
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
 					<h4>Logo Creation</h4>
@@ -171,7 +171,7 @@
   		<div class="modal-body">
   			<div class="row">
 		      	<div class="col-sm-4 col-sm-push-8">
-		      		<img src="{{url('/')}}/img/icon-seo-green.png" alt="Search Engine Optimization" class="img-responsive center-block margin-bottom-15 services-modal-icon">
+		      		<img srcset="{{url('/')}}/img/icon-seo-green.svg 2x" src="{{url('/')}}/img/icon-seo-green.png" alt="Search Engine Optimization" class="img-responsive center-block margin-bottom-15 services-modal-icon" data-no-retina>
 		      	</div>
 		      	<div class="col-sm-8 col-sm-pull-4">
 					<p>Nobody uses a phone book anymore, they use Google. So you better make sure Google can find you. That's where 5inallDesign comes in. While we can't guarantee that you will automatically be number one in all of the listings (nobody can), we will help you get as high as we can so people can find you.</p>
@@ -192,7 +192,7 @@
 		<h1>About</h1>
 		<div class="row">
 			<div class="col-sm-3">
-				<img src="{{url('/')}}/img/matt-crandell-2014.jpg" class="img-responsive me-pic" alt="Picture of Matt Crandell">
+				<img srcset="{{url('/')}}/img/matt-crandell-2014@2x.jpg 2x" src="{{url('/')}}/img/matt-crandell-2014.jpg" class="img-responsive me-pic" alt="Picture of Matt Crandell">
 				<div class="margin-bottom-10 visible-xs-block"></div>
 			</div>
 			<div class="col-sm-9 col-xs-12">

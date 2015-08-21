@@ -251,6 +251,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/matt-crandell-2014@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155205,
+		"inputAbbreviatedPath": "\/img\/matt-crandell-2014@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/matt-crandell-2014@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/me_pic.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -295,6 +306,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/accuratephysicaltherapy2@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249334,
+		"inputAbbreviatedPath": "\/img\/samples\/accuratephysicaltherapy2@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/accuratephysicaltherapy2@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/accuratephysicaltherapy@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200990,
+		"inputAbbreviatedPath": "\/img\/samples\/accuratephysicaltherapy@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/accuratephysicaltherapy@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/alchinsdisposal-mockup1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -306,6 +339,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/alchinsdisposal-mockup1@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205683,
+		"inputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup1@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup1@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/alchinsdisposal-mockup2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -313,6 +357,17 @@
 		"initialSize": 429232,
 		"inputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup2.jpg",
 		"outputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/alchinsdisposal-mockup2@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 423072,
+		"inputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup2@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/alchinsdisposal-mockup2@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -405,6 +460,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/brewing-4-business-mockup1@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300831,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business-mockup1@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business-mockup1@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/brewing-4-business1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -412,6 +478,17 @@
 		"initialSize": 113677,
 		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business1.jpg",
 		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/brewing-4-business1@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113677,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business1@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business1@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -427,6 +504,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/brewing-4-business2@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46311,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business2@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business2@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/brewing-4-business3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -434,6 +522,17 @@
 		"initialSize": 110139,
 		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business3.jpg",
 		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/brewing-4-business3@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110139,
+		"inputAbbreviatedPath": "\/img\/samples\/brewing-4-business3@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/brewing-4-business3@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -526,6 +625,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/samples\/clarkston-chamber-of-commerce-banner1@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94750,
+		"inputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-banner1@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-banner1@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/samples\/clarkston-chamber-of-commerce-mockup1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -533,6 +643,17 @@
 		"initialSize": 491464,
 		"inputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-mockup1.jpg",
 		"outputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-mockup1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/samples\/clarkston-chamber-of-commerce-mockup1@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 484916,
+		"inputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-mockup1@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/samples\/clarkston-chamber-of-commerce-mockup1@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1729,6 +1850,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/js\/respond.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/retina.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/retina.min.js",
+		"outputAbbreviatedPath": "\/js\/retina.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
