@@ -174,6 +174,8 @@ class ClientCommand extends Command
                             $asset->client_slug = $client->slug;
                             $asset->display_order = ($data[8] != '')?$data[8]:999;
                             $asset->is_hover = $data[9];
+                            $asset->path_2x = $data[10];
+                            $asset->path_3x = $data[11];
                             $asset->save();
                         } else {
                             $asset->type = $data[1];
@@ -185,6 +187,8 @@ class ClientCommand extends Command
                             $asset->client_slug = $client->slug;
                             $asset->display_order = ($data[8] != '')?$data[8]:999;
                             $asset->is_hover = $data[9];
+                            $asset->path_2x = $data[10];
+                            $asset->path_3x = $data[11];
                             $asset->save();
                         }
                     }

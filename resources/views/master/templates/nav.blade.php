@@ -9,7 +9,7 @@
               	<span class="icon-bar"></span>
         	</button>
         	<a class="navbar-brand scroll" href="{{url('/')}}{{(isset($active_page)) && ($active_page != 'home')?'':'#home'}}" data-target="#home">
-                <img src="{{url('/')}}/img/5inalldesign.png" alt="5inallDesign" class="img-responsive">
+                <img src="{{url('/')}}/img/5inalldesign.svg" alt="5inallDesign" class="logo img-responsive" data-no-retina>
                 <div class="hidden-xs by-matt">By Matt Crandell</div>
             </a>
       	</div>

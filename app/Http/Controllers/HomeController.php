@@ -51,7 +51,7 @@ class HomeController extends Controller
                 $services = explode(', ', $client->services_provided);
                 $client->services = $services;
 
-                $assets = Asset::where('client_id',$client->id)->orderBy('display_order')->get();
+                $assets = Asset::where('client_id',$client->id)->orderBy('display_order')->remember(30*24*60)->get();
                 $client->assets = $assets;
                 foreach ($assets as $asset)
                 {
@@ -68,7 +68,7 @@ class HomeController extends Controller
                     }
                 }
 
-                $testimonials = Testimonial::where('client_id',$client->id)->get();
+                $testimonials = Testimonial::where('client_id',$client->id)->remember(30*24*60)->get();
                 $client->testimonials = $testimonials;
 
                 $vw = view('home.portfolio-item');

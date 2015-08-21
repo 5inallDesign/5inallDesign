@@ -16,6 +16,7 @@
         <script src="{{url('/')}}/js/modernizr.custom.71840.js"></script>
         <script src="{{url('/')}}/js/move-top.js"></script>
         <script src="{{url('/')}}/js/easing.js"></script>
+        <!--<script src="{{url('/')}}/js/retina.min.js"></script>-->
 
         <!-- PHP to JS Variables -->
         <script>
