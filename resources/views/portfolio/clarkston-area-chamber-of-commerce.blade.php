@@ -21,7 +21,7 @@
       		</div>
       		<div class="modal-body">
 
-                <div class="text-center margin-bottom-20"><img src="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-banner1.jpg" alt="Logo for Clarkston Area Chamber of Commerce" class="img-responsive center-block" /></div>
+                <div class="text-center margin-bottom-20"><img srcset="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-banner1@2x.jpg 2x" src="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-banner1.jpg" alt="Logo for Clarkston Area Chamber of Commerce" class="img-responsive center-block" /></div>
 
                 <div class="row margin-bottom-20">
                     <div class="col-sm-7 col-lg-8">
@@ -30,7 +30,7 @@
                         <p class="hidden-xs">Check out the additional logos below.</p>
                     </div>
                     <div class="col-sm-5 col-lg-4">
-                        <p class="text-center"><img src="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-mockup1.jpg" alt="Logo for Clarkston Area Chamber of Commerce" class="img-responsive center-block" /></p>
+                        <p class="text-center"><img srcset="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-mockup1@2x.jpg 2x" src="{{url('/')}}/img/samples/clarkston-chamber-of-commerce-mockup1.jpg" alt="Logo for Clarkston Area Chamber of Commerce" class="img-responsive center-block" /></p>
                     </div>
                 </div>
 
