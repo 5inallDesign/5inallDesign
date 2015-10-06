@@ -1,3 +1,6 @@
+RewriteEngine on 
+RewriteRule ^(.*)$ http://www.crandelldesign.com/$1 [R=301,L]
+
 <IfModule mod_rewrite.c>
     Options -MultiViews
     RewriteEngine On
